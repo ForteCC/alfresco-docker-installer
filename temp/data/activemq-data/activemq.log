@@ -1,0 +1,26 @@
+2025-04-09 15:50:36,643 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/opt/activemq/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-04-09 15:50:36,649 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[/opt/activemq/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-04-09 15:50:36,667 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-04-09 15:50:36,668 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-04-09 15:50:36,814 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-04-09 15:50:36,816 | INFO  | PListStore:[/opt/activemq/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-04-09 15:50:36,817 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-04-09 15:50:36,817 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-04-09 15:50:36,941 | INFO  | Apache ActiveMQ 5.18.6 (localhost, ID:25d41d54278c-37161-1744213836823-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-04-09 15:50:36,954 | INFO  | Listening for connections at: tcp://25d41d54278c:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-04-09 15:50:36,954 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 15:50:36,959 | INFO  | Listening for connections at: amqp://25d41d54278c:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-04-09 15:50:36,960 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 15:50:36,965 | INFO  | Listening for connections at: stomp://25d41d54278c:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-04-09 15:50:36,965 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 15:50:36,967 | INFO  | Listening for connections at: mqtt://25d41d54278c:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-04-09 15:50:36,968 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 15:50:36,973 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-04-09 15:50:37,008 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-04-09 15:50:37,066 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@60325987{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-04-09 15:50:37,107 | INFO  | Listening for connections at ws://25d41d54278c:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-04-09 15:50:37,107 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 15:50:37,108 | INFO  | Apache ActiveMQ 5.18.6 (localhost, ID:25d41d54278c-37161-1744213836823-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-04-09 15:50:37,109 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-04-09 15:50:37,684 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-04-09 15:50:37,684 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main

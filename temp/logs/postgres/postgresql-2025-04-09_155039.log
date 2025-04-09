@@ -1,0 +1,29 @@
+2025-04-09 15:50:39.308 UTC [48] LOG:  starting PostgreSQL 15.6 (Debian 15.6-1.pgdg120+2) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2025-04-09 15:50:39.309 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-04-09 15:50:39.313 UTC [52] LOG:  database system was shut down at 2025-04-09 15:50:38 UTC
+2025-04-09 15:50:39.319 UTC [48] LOG:  database system is ready to accept connections
+2025-04-09 15:50:39.620 UTC [48] LOG:  received fast shutdown request
+2025-04-09 15:50:39.620 UTC [48] LOG:  aborting any active transactions
+2025-04-09 15:50:39.621 UTC [48] LOG:  background worker "logical replication launcher" (PID 55) exited with exit code 1
+2025-04-09 15:50:39.621 UTC [50] LOG:  shutting down
+2025-04-09 15:50:39.622 UTC [50] LOG:  checkpoint starting: shutdown immediate
+2025-04-09 15:50:39.717 UTC [50] LOG:  checkpoint complete: wrote 918 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.075 s, sync=0.019 s, total=0.096 s; sync files=301, longest=0.001 s, average=0.001 s; distance=4223 kB, estimate=4223 kB
+2025-04-09 15:50:39.730 UTC [48] LOG:  database system is shut down
+2025-04-09 15:50:39.840 UTC [1] LOG:  starting PostgreSQL 15.6 (Debian 15.6-1.pgdg120+2) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2025-04-09 15:50:39.840 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-04-09 15:50:39.840 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2025-04-09 15:50:39.843 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-04-09 15:50:39.847 UTC [66] LOG:  database system was shut down at 2025-04-09 15:50:39 UTC
+2025-04-09 15:50:39.851 UTC [1] LOG:  database system is ready to accept connections
+2025-04-09 15:55:39.957 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 15:57:29.622 UTC [64] LOG:  checkpoint complete: wrote 1071 buffers (6.5%); 0 WAL file(s) added, 0 removed, 1 recycled; write=109.584 s, sync=0.072 s, total=109.666 s; sync files=492, longest=0.002 s, average=0.001 s; distance=9833 kB, estimate=9833 kB
+2025-04-09 16:00:39.710 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 16:00:43.396 UTC [64] LOG:  checkpoint complete: wrote 39 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.670 s, sync=0.007 s, total=3.686 s; sync files=34, longest=0.001 s, average=0.001 s; distance=764 kB, estimate=8926 kB
+2025-04-09 16:05:39.503 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 16:05:39.725 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.210 s, sync=0.003 s, total=0.222 s; sync files=3, longest=0.001 s, average=0.001 s; distance=22 kB, estimate=8035 kB
+2025-04-09 17:46:59.684 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 17:47:00.006 UTC [64] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.311 s, sync=0.003 s, total=0.323 s; sync files=4, longest=0.001 s, average=0.001 s; distance=37 kB, estimate=7236 kB
+2025-04-09 17:51:59.105 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 17:51:59.535 UTC [64] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.422 s, sync=0.001 s, total=0.431 s; sync files=5, longest=0.001 s, average=0.001 s; distance=29 kB, estimate=6515 kB
+2025-04-09 17:56:59.627 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 17:56:59.845 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.210 s, sync=0.002 s, total=0.219 s; sync files=3, longest=0.001 s, average=0.001 s; distance=21 kB, estimate=5866 kB

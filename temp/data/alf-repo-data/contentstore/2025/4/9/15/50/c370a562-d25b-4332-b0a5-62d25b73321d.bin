@@ -1,0 +1,22 @@
+#
+# Alfresco version information
+#
+
+# Version label
+
+version.major=23
+version.minor=4
+version.revision=1
+version.label=
+
+# Edition label
+
+version.edition=Community
+
+# SCM Revision number
+
+version.scmrevision=https://github.com/Alfresco/alfresco-community-repo-r9e14db2e
+
+# Build number
+
+version.build=r9e14db2e-blocal

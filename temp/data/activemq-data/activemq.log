@@ -24,3 +24,32 @@
 2025-04-09 15:50:37,109 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
 2025-04-09 15:50:37,684 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
 2025-04-09 15:50:37,684 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-04-09 20:28:03,912 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/opt/activemq/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-04-09 20:28:03,916 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[/opt/activemq/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-04-09 20:28:03,947 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-04-09 20:28:03,947 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-04-09 20:28:03,977 | INFO  | Page File: /opt/activemq/data/kahadb/db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-04-09 20:28:03,983 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-04-09 20:28:03,983 | INFO  | Page File: /opt/activemq/data/kahadb/db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-04-09 20:28:04,056 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-04-09 20:28:04,057 | INFO  | PListStore:[/opt/activemq/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-04-09 20:28:04,057 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-04-09 20:28:04,058 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-04-09 20:28:04,183 | INFO  | Apache ActiveMQ 5.18.6 (localhost, ID:25d41d54278c-37387-1744230484063-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-04-09 20:28:04,222 | INFO  | Listening for connections at: tcp://25d41d54278c:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-04-09 20:28:04,223 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 20:28:04,226 | INFO  | Listening for connections at: amqp://25d41d54278c:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-04-09 20:28:04,226 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 20:28:04,229 | INFO  | Listening for connections at: stomp://25d41d54278c:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-04-09 20:28:04,229 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 20:28:04,232 | INFO  | Listening for connections at: mqtt://25d41d54278c:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-04-09 20:28:04,232 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 20:28:04,234 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-04-09 20:28:04,272 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-04-09 20:28:04,318 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3c83468e{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-04-09 20:28:04,369 | INFO  | Listening for connections at ws://25d41d54278c:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-04-09 20:28:04,369 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-04-09 20:28:04,370 | INFO  | Apache ActiveMQ 5.18.6 (localhost, ID:25d41d54278c-37387-1744230484063-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-04-09 20:28:04,370 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-04-09 20:28:04,747 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-04-09 20:28:04,748 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main

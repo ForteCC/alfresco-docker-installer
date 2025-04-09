@@ -27,3 +27,46 @@
 2025-04-09 17:51:59.535 UTC [64] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.422 s, sync=0.001 s, total=0.431 s; sync files=5, longest=0.001 s, average=0.001 s; distance=29 kB, estimate=6515 kB
 2025-04-09 17:56:59.627 UTC [64] LOG:  checkpoint starting: time
 2025-04-09 17:56:59.845 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.210 s, sync=0.002 s, total=0.219 s; sync files=3, longest=0.001 s, average=0.001 s; distance=21 kB, estimate=5866 kB
+2025-04-09 18:01:59.867 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:02:00.081 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.206 s, sync=0.001 s, total=0.215 s; sync files=3, longest=0.001 s, average=0.001 s; distance=30 kB, estimate=5282 kB
+2025-04-09 18:06:59.138 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:06:59.366 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.216 s, sync=0.003 s, total=0.229 s; sync files=3, longest=0.002 s, average=0.001 s; distance=21 kB, estimate=4756 kB
+2025-04-09 18:16:04.388 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:16:04.610 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.211 s, sync=0.002 s, total=0.223 s; sync files=3, longest=0.002 s, average=0.001 s; distance=31 kB, estimate=4283 kB
+2025-04-09 18:21:04.714 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:21:04.936 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.211 s, sync=0.001 s, total=0.222 s; sync files=3, longest=0.001 s, average=0.001 s; distance=27 kB, estimate=3858 kB
+2025-04-09 18:26:05.019 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:26:05.240 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.210 s, sync=0.002 s, total=0.222 s; sync files=3, longest=0.001 s, average=0.001 s; distance=22 kB, estimate=3474 kB
+2025-04-09 18:31:05.268 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:31:05.491 UTC [64] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.212 s, sync=0.003 s, total=0.223 s; sync files=3, longest=0.002 s, average=0.001 s; distance=27 kB, estimate=3130 kB
+2025-04-09 18:36:05.580 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:36:05.804 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.213 s, sync=0.002 s, total=0.225 s; sync files=3, longest=0.001 s, average=0.001 s; distance=20 kB, estimate=2819 kB
+2025-04-09 18:41:05.847 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:41:06.073 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.214 s, sync=0.002 s, total=0.226 s; sync files=3, longest=0.001 s, average=0.001 s; distance=28 kB, estimate=2539 kB
+2025-04-09 18:46:05.105 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:46:05.325 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.211 s, sync=0.002 s, total=0.221 s; sync files=3, longest=0.001 s, average=0.001 s; distance=20 kB, estimate=2288 kB
+2025-04-09 18:51:05.330 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:51:05.554 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.211 s, sync=0.002 s, total=0.224 s; sync files=3, longest=0.001 s, average=0.001 s; distance=28 kB, estimate=2062 kB
+2025-04-09 18:56:05.605 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 18:56:05.828 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.209 s, sync=0.003 s, total=0.224 s; sync files=3, longest=0.002 s, average=0.001 s; distance=20 kB, estimate=1857 kB
+2025-04-09 19:01:05.931 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 19:01:06.152 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.209 s, sync=0.002 s, total=0.222 s; sync files=3, longest=0.001 s, average=0.001 s; distance=29 kB, estimate=1675 kB
+2025-04-09 19:06:05.158 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 19:06:05.383 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.215 s, sync=0.003 s, total=0.226 s; sync files=3, longest=0.002 s, average=0.001 s; distance=21 kB, estimate=1509 kB
+2025-04-09 19:11:05.390 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 19:11:05.609 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.207 s, sync=0.002 s, total=0.219 s; sync files=3, longest=0.001 s, average=0.001 s; distance=29 kB, estimate=1361 kB
+2025-04-09 19:16:05.695 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 19:16:05.917 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.210 s, sync=0.002 s, total=0.222 s; sync files=3, longest=0.001 s, average=0.001 s; distance=20 kB, estimate=1227 kB
+2025-04-09 19:21:05.991 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 19:21:06.214 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.210 s, sync=0.003 s, total=0.224 s; sync files=3, longest=0.001 s, average=0.001 s; distance=28 kB, estimate=1107 kB
+2025-04-09 19:26:05.242 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 19:26:05.460 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.208 s, sync=0.003 s, total=0.218 s; sync files=3, longest=0.002 s, average=0.001 s; distance=20 kB, estimate=998 kB
+2025-04-09 19:31:05.560 UTC [64] LOG:  checkpoint starting: time
+2025-04-09 19:31:05.790 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.217 s, sync=0.003 s, total=0.231 s; sync files=3, longest=0.002 s, average=0.001 s; distance=28 kB, estimate=901 kB
+2025-04-09 19:35:58.928 UTC [1] LOG:  received fast shutdown request
+2025-04-09 19:35:58.930 UTC [1] LOG:  aborting any active transactions
+2025-04-09 19:35:58.932 UTC [1] LOG:  background worker "logical replication launcher" (PID 69) exited with exit code 1
+2025-04-09 19:35:58.932 UTC [64] LOG:  shutting down
+2025-04-09 19:35:58.933 UTC [64] LOG:  checkpoint starting: shutdown immediate
+2025-04-09 19:35:58.939 UTC [64] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.008 s; sync files=3, longest=0.001 s, average=0.001 s; distance=19 kB, estimate=813 kB
+2025-04-09 19:35:58.945 UTC [1] LOG:  database system is shut down

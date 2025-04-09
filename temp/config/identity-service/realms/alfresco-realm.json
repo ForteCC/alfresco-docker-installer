@@ -1,0 +1,42 @@
+{
+    "realm": "alfresco",
+    "enabled": true,
+    "clients": [
+      {
+        "clientId": "alfresco",
+        "enabled": true,
+        "publicClient": false,
+        "secret": "alfresco-secret",
+        "redirectUris": ["http://localhost/*"],
+        "webOrigins": ["+"],
+        "protocolMappers": [
+          {
+            "name": "Alfresco roles",
+            "protocol": "openid-connect",
+            "protocolMapper": "oidc-usermodel-attribute-mapper",
+            "config": {
+              "user.attribute": "roles",
+              "claim.name": "roles",
+              "jsonType.label": "String",
+              "multivalued": "true",
+              "id.token.claim": "true",
+              "access.token.claim": "true"
+            }
+          }
+        ]
+      }
+    ],
+    "users": [
+      {
+        "username": "admin",
+        "enabled": true,
+        "credentials": [
+          {
+            "type": "password",
+            "value": "admin"
+          }
+        ],
+        "realmRoles": ["offline_access", "uma_authorization"]
+      }
+    ]
+  }

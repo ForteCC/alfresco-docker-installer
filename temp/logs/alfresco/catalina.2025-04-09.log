@@ -33,3 +33,42 @@
 09-Apr-2025 15:51:05.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/_vti_bin] has finished in [58] ms
 09-Apr-2025 15:51:05.297 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 09-Apr-2025 15:51:05.305 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [19244] milliseconds
+09-Apr-2025 19:35:48.762 INFO [Thread-46] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2025 19:35:48.764 INFO [Thread-46] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2025 20:28:13.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Alfresco servlet container/10
+09-Apr-2025 20:28:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          unknown
+09-Apr-2025 20:28:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10
+09-Apr-2025 20:28:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2025 20:28:13.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.10.14-linuxkit
+09-Apr-2025 20:28:13.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+09-Apr-2025 20:28:13.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.12.0.7-2.el9.aarch64
+09-Apr-2025 20:28:13.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.12+7-LTS
+09-Apr-2025 20:28:13.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+09-Apr-2025 20:28:13.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+09-Apr-2025 20:28:13.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+09-Apr-2025 20:28:13.284 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+09-Apr-2025 20:28:13.284 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.0].
+09-Apr-2025 20:28:13.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.7 1 Nov 2022]
+09-Apr-2025 20:28:13.416 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2025 20:28:13.433 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [252] milliseconds
+09-Apr-2025 20:28:13.456 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2025 20:28:13.456 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Alfresco servlet container/10]
+09-Apr-2025 20:28:13.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/alfresco]
+09-Apr-2025 20:28:13.748 WARNING [main] org.apache.juli.ClassLoaderLogManager.readConfiguration Reading /usr/local/tomcat/webapps/alfresco/WEB-INF/classes/logging.properties is not permitted. See "per context logging" in the default catalina.policy file.
+09-Apr-2025 20:28:13.749 WARNING [main] org.apache.juli.ClassLoaderLogManager.readConfiguration Reading /usr/local/tomcat/webapps/alfresco/WEB-INF/classes/logging.properties is not permitted. See "per context logging" in the default catalina.policy file.
+09-Apr-2025 20:28:17.345 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2025 20:28:28.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/alfresco] has finished in [14,971] ms
+09-Apr-2025 20:28:28.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/api-explorer]
+09-Apr-2025 20:28:28.481 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2025 20:28:28.503 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/api-explorer] has finished in [73] ms
+09-Apr-2025 20:28:28.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+09-Apr-2025 20:28:28.505 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [debug] to [100]
+09-Apr-2025 20:28:28.542 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2025 20:28:28.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [39] ms
+09-Apr-2025 20:28:28.544 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/_vti_bin]
+09-Apr-2025 20:28:28.599 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2025 20:28:28.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/_vti_bin] has finished in [56] ms
+09-Apr-2025 20:28:28.606 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2025 20:28:28.618 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [15185] milliseconds
+09-Apr-2025 21:31:02.246 INFO [Thread-42] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2025 21:31:02.247 INFO [Thread-42] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]

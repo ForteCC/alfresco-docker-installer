@@ -7,7 +7,9 @@ services:
             DB: postgres
             SOLR_COMMS: secret 
         mem_limit: 7488m
-        depends_on: 
+        depends_on:
+          alfresco-identity-service:
+            condition: service_started
           postgres:
             condition: service_healthy
               
@@ -61,6 +63,24 @@ services:
                 -Dgoogledocs.enabled=true  
                 -Ddev.email.not.sent=true  
                 -XX:MinRAMPercentage=50 -XX:MaxRAMPercentage=80
+                # service identity
+                -Dauthentication.chain=identity-service1:identity-service
+                -Didentity-service.enable-basic-auth=true
+                -Didentity-service.auth-server-url=http://${HOST_IP}:8999
+                -Didentity-service.realm=alfresco
+                -Didentity-service.resource=alfresco
+                # # AD/LDAP Integration
+                # -Dauthentication.chain=alfrescoNtlm1:alfrescoNtlm,ldap-ad1:ldap-ad
+                # -Dldap-ad.authentication.active=true
+                # -Dldap-ad.authentication.userNameFormat=CN=%s,OU=Users,OU=Tap Electric,DC=tapelectric,DC=local
+                # -Dldap-ad.authentication.java.naming.provider.url=ldap://10.20.102.10:389
+                # -Dldap-ad.authentication.java.naming.security.principal=CN=mjalan@fortecc.com,OU=Users,OU=Tap Electric,DC=tapelectric,DC=local
+                # -Dldap-ad.authentication.java.naming.security.credentials=ComplexHai@2692000
+                # -Dldap-ad.synchronization.active=true
+                # -Dldap-ad.synchronization.userSearchBase=OU=Users,OU=Tap Electric,DC=tapelectric,DC=local
+                # -Dldap-ad.synchronization.groupSearchBase=OU=Groups,DC=tapelectric,DC=local
+                # -Dldap-ad.synchronization.userIdAttributeName=samAccountName
+                # -Dldap-ad.synchronization.groupIdAttributeName=cn
             '
         healthcheck:
           test:
@@ -212,12 +232,6 @@ services:
             - ${BIND_IP_NGINX:-0.0.0.0}:80:80
 
     
-
-    
-
-    
-
-    
     transform-ocr:
         image: angelborroy/alfresco-tengine-ocr:1.0.0
         mem_limit: 1536m
@@ -229,4 +243,16 @@ services:
             "
     
 
-
+    identity-service:
+        image: alfresco/alfresco-identity-service:${AIMS_TAG}
+        environment:
+          KEYCLOAK_USER: admin
+          KEYCLOAK_PASSWORD: admin
+          DB_VENDOR: postgres
+          DB_ADDR: postgres
+          DB_USER: alfresco
+          DB_PASSWORD: alfresco
+        depends_on:
+          - postgres
+        ports:
+          - "8081:8080"

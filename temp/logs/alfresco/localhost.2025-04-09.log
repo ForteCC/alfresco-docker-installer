@@ -1,6 +1,0 @@
-09-Apr-2025 15:50:49.565 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
-09-Apr-2025 15:50:49.572 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
-09-Apr-2025 19:35:48.819 INFO [Thread-46] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
-09-Apr-2025 20:28:17.353 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
-09-Apr-2025 20:28:17.359 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
-09-Apr-2025 21:31:02.277 INFO [Thread-42] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

@@ -1,0 +1,20 @@
+authentication.chain=alfrescoNtlm1:alfrescoNtlm,ldap1:ldap
+
+
+ldap.authentication.active=true
+ldap.authentication.allowGuestLogin=false
+
+ldap.authentication.userNameFormat=sAMAccountName=%s,OU=Users,OU=Tap Electric,DC=tapelectric,DC=local
+
+ldap.authentication.java.naming.provider.url=ldap://10.20.102.10:389
+ldap.authentication.java.naming.security.authentication=simple
+ldap.authentication.java.naming.security.principal=sAMAccountName=mjalan,OU=Users,OU=Tap Electric,DC=tapelectric,DC=local
+ldap.authentication.java.naming.security.credentials=ComplexHai@2692000
+
+ldap.synchronization.active=true
+ldap.synchronization.userSearchBase=OU=Users,OU=Tap Electric,DC=tapelectric,DC=local
+ldap.synchronization.groupSearchBase=OU=Groups,DC=tapelectric,DC=local
+ldap.synchronization.userIdAttributeName=samAccountName
+ldap.synchronization.groupIdAttributeName=samAccountName
+
+ldap.authentication.defaultAdministratorUserNames=admin
